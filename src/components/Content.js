@@ -17,12 +17,17 @@ function content  () {
 
               
               </p>
+
+
+     
               
     
     
-            
-        </div>
-    )
-}
+              </div>
+              
 
+    )
+    
+
+}
 export default content

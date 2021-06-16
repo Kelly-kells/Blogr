@@ -4,6 +4,7 @@ import Header from'./components/Header';
 import Design from'./components/Design';
 import Content from'./components/Content';
 import Footer from './components/Footer';
+import Content2 from './components/Content2';
 
 const App = () => {
   return (
@@ -12,22 +13,29 @@ const App = () => {
     <NavBar />
     <Header />
     <div className="row">
-      <div className="col-sm-6">
+      <div className="col-sm-4">
     <Content />
 
       </div >
-      <div className="col-sm-6">
-        
+      
+      <div className="col-sm-4">  
     <Design />
-      </div>
-      <div>
+    </div>
 
-      <Footer />
+    <Footer />
+   
+      
+      
+      
+    
+    
+
+      
+
+    <Content2 />
       </div>
     </div>
     
-    
-    </div>
   )
 }
 
